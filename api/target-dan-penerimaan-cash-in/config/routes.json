@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/target-dan-penerimaan-cash-ins",
+      "handler": "target-dan-penerimaan-cash-in.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/target-dan-penerimaan-cash-ins/count",
+      "handler": "target-dan-penerimaan-cash-in.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/target-dan-penerimaan-cash-ins/:id",
+      "handler": "target-dan-penerimaan-cash-in.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/target-dan-penerimaan-cash-ins",
+      "handler": "target-dan-penerimaan-cash-in.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/target-dan-penerimaan-cash-ins/:id",
+      "handler": "target-dan-penerimaan-cash-in.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/target-dan-penerimaan-cash-ins/:id",
+      "handler": "target-dan-penerimaan-cash-in.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

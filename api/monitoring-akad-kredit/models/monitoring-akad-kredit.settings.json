@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monitoring_akad_kredits",
+  "info": {
+    "name": "monitoring_akad_kredit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

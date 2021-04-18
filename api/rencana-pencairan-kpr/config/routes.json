@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rencana-pencairan-kprs",
+      "handler": "rencana-pencairan-kpr.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rencana-pencairan-kprs/count",
+      "handler": "rencana-pencairan-kpr.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rencana-pencairan-kprs/:id",
+      "handler": "rencana-pencairan-kpr.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rencana-pencairan-kprs",
+      "handler": "rencana-pencairan-kpr.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rencana-pencairan-kprs/:id",
+      "handler": "rencana-pencairan-kpr.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rencana-pencairan-kprs/:id",
+      "handler": "rencana-pencairan-kpr.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

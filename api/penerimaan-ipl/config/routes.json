@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/penerimaan-ipls",
+      "handler": "penerimaan-ipl.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-ipls/count",
+      "handler": "penerimaan-ipl.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-ipls/:id",
+      "handler": "penerimaan-ipl.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/penerimaan-ipls",
+      "handler": "penerimaan-ipl.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/penerimaan-ipls/:id",
+      "handler": "penerimaan-ipl.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/penerimaan-ipls/:id",
+      "handler": "penerimaan-ipl.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

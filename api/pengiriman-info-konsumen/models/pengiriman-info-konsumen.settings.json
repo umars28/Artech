@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengiriman_info_konsumen",
+  "info": {
+    "name": "pengiriman_info_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

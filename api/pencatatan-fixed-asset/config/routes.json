@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pencatatan-fixed-assets",
+      "handler": "pencatatan-fixed-asset.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencatatan-fixed-assets/count",
+      "handler": "pencatatan-fixed-asset.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencatatan-fixed-assets/:id",
+      "handler": "pencatatan-fixed-asset.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pencatatan-fixed-assets",
+      "handler": "pencatatan-fixed-asset.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pencatatan-fixed-assets/:id",
+      "handler": "pencatatan-fixed-asset.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pencatatan-fixed-assets/:id",
+      "handler": "pencatatan-fixed-asset.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

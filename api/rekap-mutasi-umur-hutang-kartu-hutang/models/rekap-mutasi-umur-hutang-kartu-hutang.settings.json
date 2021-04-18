@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rekap_mutasi_umur_hutang_kartu_hutangs",
+  "info": {
+    "name": "rekap_mutasi_umur_hutang_kartu_hutang"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

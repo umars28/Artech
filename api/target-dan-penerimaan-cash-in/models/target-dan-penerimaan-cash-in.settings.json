@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "target_dan_penerimaan_cash_ins",
+  "info": {
+    "name": "target_dan_penerimaan_cash_in"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

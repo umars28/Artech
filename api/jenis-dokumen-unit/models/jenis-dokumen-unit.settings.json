@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jenis_dokumen_units",
+  "info": {
+    "name": "jenis_dokumen_unit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

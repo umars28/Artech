@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rab-proyeks",
+      "handler": "rab-proyek.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rab-proyeks/count",
+      "handler": "rab-proyek.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rab-proyeks/:id",
+      "handler": "rab-proyek.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rab-proyeks",
+      "handler": "rab-proyek.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rab-proyeks/:id",
+      "handler": "rab-proyek.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rab-proyeks/:id",
+      "handler": "rab-proyek.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

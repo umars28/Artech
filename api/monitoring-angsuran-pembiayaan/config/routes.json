@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-angsuran-pembiayaans",
+      "handler": "monitoring-angsuran-pembiayaan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-angsuran-pembiayaans/count",
+      "handler": "monitoring-angsuran-pembiayaan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-angsuran-pembiayaans/:id",
+      "handler": "monitoring-angsuran-pembiayaan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-angsuran-pembiayaans",
+      "handler": "monitoring-angsuran-pembiayaan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-angsuran-pembiayaans/:id",
+      "handler": "monitoring-angsuran-pembiayaan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-angsuran-pembiayaans/:id",
+      "handler": "monitoring-angsuran-pembiayaan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

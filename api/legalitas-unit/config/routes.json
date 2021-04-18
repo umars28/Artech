@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/legalitas-units",
+      "handler": "legalitas-unit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/legalitas-units/count",
+      "handler": "legalitas-unit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/legalitas-units/:id",
+      "handler": "legalitas-unit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/legalitas-units",
+      "handler": "legalitas-unit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/legalitas-units/:id",
+      "handler": "legalitas-unit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/legalitas-units/:id",
+      "handler": "legalitas-unit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

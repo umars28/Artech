@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-marketing-fees",
+      "handler": "monitoring-marketing-fee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-marketing-fees/count",
+      "handler": "monitoring-marketing-fee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-marketing-fees/:id",
+      "handler": "monitoring-marketing-fee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-marketing-fees",
+      "handler": "monitoring-marketing-fee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-marketing-fees/:id",
+      "handler": "monitoring-marketing-fee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-marketing-fees/:id",
+      "handler": "monitoring-marketing-fee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

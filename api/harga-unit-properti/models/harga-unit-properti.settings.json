@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "harga_unit_propertis",
+  "info": {
+    "name": "harga_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daftar-rencana-pembayaran-konsumen",
+      "handler": "daftar-rencana-pembayaran-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-rencana-pembayaran-konsumen/count",
+      "handler": "daftar-rencana-pembayaran-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-rencana-pembayaran-konsumen/:id",
+      "handler": "daftar-rencana-pembayaran-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daftar-rencana-pembayaran-konsumen",
+      "handler": "daftar-rencana-pembayaran-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daftar-rencana-pembayaran-konsumen/:id",
+      "handler": "daftar-rencana-pembayaran-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daftar-rencana-pembayaran-konsumen/:id",
+      "handler": "daftar-rencana-pembayaran-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

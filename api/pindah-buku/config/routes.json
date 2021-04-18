@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pindah-bukus",
+      "handler": "pindah-buku.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pindah-bukus/count",
+      "handler": "pindah-buku.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pindah-bukus/:id",
+      "handler": "pindah-buku.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pindah-bukus",
+      "handler": "pindah-buku.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pindah-bukus/:id",
+      "handler": "pindah-buku.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pindah-bukus/:id",
+      "handler": "pindah-buku.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

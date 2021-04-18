@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-lahans",
+      "handler": "pembayaran-lahan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-lahans/count",
+      "handler": "pembayaran-lahan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-lahans/:id",
+      "handler": "pembayaran-lahan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-lahans",
+      "handler": "pembayaran-lahan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-lahans/:id",
+      "handler": "pembayaran-lahan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-lahans/:id",
+      "handler": "pembayaran-lahan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

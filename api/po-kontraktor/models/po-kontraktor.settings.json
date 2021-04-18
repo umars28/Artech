@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "po_kontraktors",
+  "info": {
+    "name": "po_kontraktor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

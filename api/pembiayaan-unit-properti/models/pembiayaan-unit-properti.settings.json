@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pembiayaan_unit_propertis",
+  "info": {
+    "name": "pengajuan_biaya_unit_properti",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

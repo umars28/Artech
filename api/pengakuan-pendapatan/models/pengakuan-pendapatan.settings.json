@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengakuan_pendapatans",
+  "info": {
+    "name": "pengakuan_pendapatan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

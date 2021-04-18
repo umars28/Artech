@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/riwayat-unit-propertis",
+      "handler": "riwayat-unit-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/riwayat-unit-propertis/count",
+      "handler": "riwayat-unit-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/riwayat-unit-propertis/:id",
+      "handler": "riwayat-unit-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/riwayat-unit-propertis",
+      "handler": "riwayat-unit-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/riwayat-unit-propertis/:id",
+      "handler": "riwayat-unit-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/riwayat-unit-propertis/:id",
+      "handler": "riwayat-unit-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/umur-tunggakan-cicilan-konsumen",
+      "handler": "umur-tunggakan-cicilan-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/umur-tunggakan-cicilan-konsumen/count",
+      "handler": "umur-tunggakan-cicilan-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/umur-tunggakan-cicilan-konsumen/:id",
+      "handler": "umur-tunggakan-cicilan-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/umur-tunggakan-cicilan-konsumen",
+      "handler": "umur-tunggakan-cicilan-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/umur-tunggakan-cicilan-konsumen/:id",
+      "handler": "umur-tunggakan-cicilan-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/umur-tunggakan-cicilan-konsumen/:id",
+      "handler": "umur-tunggakan-cicilan-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laporan_penjualan_unit_propertis",
+  "info": {
+    "name": "laporan_penjualan_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

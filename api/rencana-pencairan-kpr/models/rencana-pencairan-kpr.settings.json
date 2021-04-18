@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rencana_pencairan_kprs",
+  "info": {
+    "name": "rencana_pencairan_kpr"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

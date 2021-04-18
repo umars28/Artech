@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengiriman-info-konsumen",
+      "handler": "pengiriman-info-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengiriman-info-konsumen/count",
+      "handler": "pengiriman-info-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengiriman-info-konsumen/:id",
+      "handler": "pengiriman-info-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengiriman-info-konsumen",
+      "handler": "pengiriman-info-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengiriman-info-konsumen/:id",
+      "handler": "pengiriman-info-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengiriman-info-konsumen/:id",
+      "handler": "pengiriman-info-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

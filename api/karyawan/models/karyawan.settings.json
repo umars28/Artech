@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "karyawans",
+  "info": {
+    "name": "karyawan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

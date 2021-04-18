@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buku_besars",
+  "info": {
+    "name": "buku_besar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

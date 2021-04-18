@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengeluaran-penerimaan-langsungs",
+      "handler": "pengeluaran-penerimaan-langsung.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengeluaran-penerimaan-langsungs/count",
+      "handler": "pengeluaran-penerimaan-langsung.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengeluaran-penerimaan-langsungs/:id",
+      "handler": "pengeluaran-penerimaan-langsung.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengeluaran-penerimaan-langsungs",
+      "handler": "pengeluaran-penerimaan-langsung.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengeluaran-penerimaan-langsungs/:id",
+      "handler": "pengeluaran-penerimaan-langsung.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengeluaran-penerimaan-langsungs/:id",
+      "handler": "pengeluaran-penerimaan-langsung.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

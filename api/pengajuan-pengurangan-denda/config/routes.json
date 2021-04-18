@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengajuan-pengurangan-dendas",
+      "handler": "pengajuan-pengurangan-denda.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pengurangan-dendas/count",
+      "handler": "pengajuan-pengurangan-denda.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pengurangan-dendas/:id",
+      "handler": "pengajuan-pengurangan-denda.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengajuan-pengurangan-dendas",
+      "handler": "pengajuan-pengurangan-denda.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengajuan-pengurangan-dendas/:id",
+      "handler": "pengajuan-pengurangan-denda.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengajuan-pengurangan-dendas/:id",
+      "handler": "pengajuan-pengurangan-denda.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

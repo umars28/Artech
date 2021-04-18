@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monitoring_giros",
+  "info": {
+    "name": "monitoring_giro"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

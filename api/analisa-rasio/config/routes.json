@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/analisa-rasios",
+      "handler": "analisa-rasio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/analisa-rasios/count",
+      "handler": "analisa-rasio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/analisa-rasios/:id",
+      "handler": "analisa-rasio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/analisa-rasios",
+      "handler": "analisa-rasio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/analisa-rasios/:id",
+      "handler": "analisa-rasio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/analisa-rasios/:id",
+      "handler": "analisa-rasio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

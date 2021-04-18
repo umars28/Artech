@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "import_pencairan_kpr_excels",
+  "info": {
+    "name": "import_pencairan_kpr_excel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

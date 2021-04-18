@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-giros",
+      "handler": "monitoring-giro.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-giros/count",
+      "handler": "monitoring-giro.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-giros/:id",
+      "handler": "monitoring-giro.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-giros",
+      "handler": "monitoring-giro.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-giros/:id",
+      "handler": "monitoring-giro.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-giros/:id",
+      "handler": "monitoring-giro.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

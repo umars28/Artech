@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-berkas-konsumen",
+      "handler": "monitoring-berkas-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-berkas-konsumen/count",
+      "handler": "monitoring-berkas-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-berkas-konsumen/:id",
+      "handler": "monitoring-berkas-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-berkas-konsumen",
+      "handler": "monitoring-berkas-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-berkas-konsumen/:id",
+      "handler": "monitoring-berkas-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-berkas-konsumen/:id",
+      "handler": "monitoring-berkas-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

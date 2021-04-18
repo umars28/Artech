@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laporan-neraca-perbulans",
+      "handler": "laporan-neraca-perbulan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-neraca-perbulans/count",
+      "handler": "laporan-neraca-perbulan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-neraca-perbulans/:id",
+      "handler": "laporan-neraca-perbulan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laporan-neraca-perbulans",
+      "handler": "laporan-neraca-perbulan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laporan-neraca-perbulans/:id",
+      "handler": "laporan-neraca-perbulan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laporan-neraca-perbulans/:id",
+      "handler": "laporan-neraca-perbulan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

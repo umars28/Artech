@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proyeks",
+  "info": {
+    "name": "proyek"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

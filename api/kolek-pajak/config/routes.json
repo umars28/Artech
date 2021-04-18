@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kolek-pajaks",
+      "handler": "kolek-pajak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kolek-pajaks/count",
+      "handler": "kolek-pajak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kolek-pajaks/:id",
+      "handler": "kolek-pajak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kolek-pajaks",
+      "handler": "kolek-pajak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kolek-pajaks/:id",
+      "handler": "kolek-pajak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kolek-pajaks/:id",
+      "handler": "kolek-pajak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

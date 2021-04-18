@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengakuan-pendapatans",
+      "handler": "pengakuan-pendapatan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengakuan-pendapatans/count",
+      "handler": "pengakuan-pendapatan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengakuan-pendapatans/:id",
+      "handler": "pengakuan-pendapatan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengakuan-pendapatans",
+      "handler": "pengakuan-pendapatan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengakuan-pendapatans/:id",
+      "handler": "pengakuan-pendapatan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengakuan-pendapatans/:id",
+      "handler": "pengakuan-pendapatan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

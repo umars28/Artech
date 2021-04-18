@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pembayaran_lahans",
+  "info": {
+    "name": "pembayaran_lahan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

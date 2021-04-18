@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kontrak-pembiayaans",
+      "handler": "kontrak-pembiayaan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kontrak-pembiayaans/count",
+      "handler": "kontrak-pembiayaan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kontrak-pembiayaans/:id",
+      "handler": "kontrak-pembiayaan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kontrak-pembiayaans",
+      "handler": "kontrak-pembiayaan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kontrak-pembiayaans/:id",
+      "handler": "kontrak-pembiayaan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kontrak-pembiayaans/:id",
+      "handler": "kontrak-pembiayaan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

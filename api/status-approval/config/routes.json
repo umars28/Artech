@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/status-approvals",
+      "handler": "status-approval.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/status-approvals/count",
+      "handler": "status-approval.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/status-approvals/:id",
+      "handler": "status-approval.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/status-approvals",
+      "handler": "status-approval.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/status-approvals/:id",
+      "handler": "status-approval.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/status-approvals/:id",
+      "handler": "status-approval.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

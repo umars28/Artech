@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pencairan_pembiayaans",
+  "info": {
+    "name": "pencairan_pembiayaan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

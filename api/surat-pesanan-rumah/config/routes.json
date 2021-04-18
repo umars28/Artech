@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/surat-pesanan-rumahs",
+      "handler": "surat-pesanan-rumah.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surat-pesanan-rumahs/count",
+      "handler": "surat-pesanan-rumah.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surat-pesanan-rumahs/:id",
+      "handler": "surat-pesanan-rumah.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/surat-pesanan-rumahs",
+      "handler": "surat-pesanan-rumah.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/surat-pesanan-rumahs/:id",
+      "handler": "surat-pesanan-rumah.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/surat-pesanan-rumahs/:id",
+      "handler": "surat-pesanan-rumah.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

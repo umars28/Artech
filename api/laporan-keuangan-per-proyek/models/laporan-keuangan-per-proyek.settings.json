@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laporan_keuangan_per_proyeks",
+  "info": {
+    "name": "laporan_keuangan_per_proyek"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

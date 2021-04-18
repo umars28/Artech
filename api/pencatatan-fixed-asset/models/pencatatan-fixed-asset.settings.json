@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pencatatan_fixed_assets",
+  "info": {
+    "name": "pencatatan_fixed_asset"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

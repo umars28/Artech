@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pembatalan_pembelian_unit_propertis",
+  "info": {
+    "name": "pembatalan_pembelian_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

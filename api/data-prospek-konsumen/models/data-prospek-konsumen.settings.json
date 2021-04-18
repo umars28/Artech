@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_prospek_konsumen",
+  "info": {
+    "name": "data_prospek_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

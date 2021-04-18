@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proses_kprs",
+  "info": {
+    "name": "proses_kpr"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

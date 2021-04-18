@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daftar_jurnals",
+  "info": {
+    "name": "daftar_jurnal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

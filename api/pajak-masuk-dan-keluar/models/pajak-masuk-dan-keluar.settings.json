@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pajak_masuk_dan_keluars",
+  "info": {
+    "name": "pajak_masuk_dan_keluar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

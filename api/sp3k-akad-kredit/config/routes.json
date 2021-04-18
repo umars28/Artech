@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sp-3-k-akad-kredits",
+      "handler": "sp3k-akad-kredit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sp-3-k-akad-kredits/count",
+      "handler": "sp3k-akad-kredit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sp-3-k-akad-kredits/:id",
+      "handler": "sp3k-akad-kredit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sp-3-k-akad-kredits",
+      "handler": "sp3k-akad-kredit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sp-3-k-akad-kredits/:id",
+      "handler": "sp3k-akad-kredit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sp-3-k-akad-kredits/:id",
+      "handler": "sp3k-akad-kredit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "status_persediaan_unit_propertis",
+  "info": {
+    "name": "status_persediaan_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

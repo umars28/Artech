@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kontrak-ppjbs",
+      "handler": "kontrak-ppjb.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kontrak-ppjbs/count",
+      "handler": "kontrak-ppjb.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kontrak-ppjbs/:id",
+      "handler": "kontrak-ppjb.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kontrak-ppjbs",
+      "handler": "kontrak-ppjb.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kontrak-ppjbs/:id",
+      "handler": "kontrak-ppjb.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kontrak-ppjbs/:id",
+      "handler": "kontrak-ppjb.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

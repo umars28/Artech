@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_dan_respon_konsumen",
+  "info": {
+    "name": "info_dan_respon_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legalitas_perijinan_proyeks",
+  "info": {
+    "name": "legalitas_perijinan_proyek"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

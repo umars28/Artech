@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "neraca_lajurs",
+  "info": {
+    "name": "neraca_lajur"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

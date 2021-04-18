@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengajuan-pindah-bukus",
+      "handler": "pengajuan-pindah-buku.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pindah-bukus/count",
+      "handler": "pengajuan-pindah-buku.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pindah-bukus/:id",
+      "handler": "pengajuan-pindah-buku.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengajuan-pindah-bukus",
+      "handler": "pengajuan-pindah-buku.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengajuan-pindah-bukus/:id",
+      "handler": "pengajuan-pindah-buku.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengajuan-pindah-bukus/:id",
+      "handler": "pengajuan-pindah-buku.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

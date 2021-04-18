@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sp3k_akad_kredits",
+  "info": {
+    "name": "sp3k_akad_kredit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

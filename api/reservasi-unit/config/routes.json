@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reservasi-units",
+      "handler": "reservasi-unit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reservasi-units/count",
+      "handler": "reservasi-unit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reservasi-units/:id",
+      "handler": "reservasi-unit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reservasi-units",
+      "handler": "reservasi-unit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reservasi-units/:id",
+      "handler": "reservasi-unit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reservasi-units/:id",
+      "handler": "reservasi-unit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

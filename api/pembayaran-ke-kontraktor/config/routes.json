@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-ke-kontraktors",
+      "handler": "pembayaran-ke-kontraktor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-ke-kontraktors/count",
+      "handler": "pembayaran-ke-kontraktor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-ke-kontraktors/:id",
+      "handler": "pembayaran-ke-kontraktor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-ke-kontraktors",
+      "handler": "pembayaran-ke-kontraktor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-ke-kontraktors/:id",
+      "handler": "pembayaran-ke-kontraktor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-ke-kontraktors/:id",
+      "handler": "pembayaran-ke-kontraktor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

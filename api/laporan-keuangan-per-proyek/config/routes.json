@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laporan-keuangan-per-proyeks",
+      "handler": "laporan-keuangan-per-proyek.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-keuangan-per-proyeks/count",
+      "handler": "laporan-keuangan-per-proyek.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-keuangan-per-proyeks/:id",
+      "handler": "laporan-keuangan-per-proyek.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laporan-keuangan-per-proyeks",
+      "handler": "laporan-keuangan-per-proyek.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laporan-keuangan-per-proyeks/:id",
+      "handler": "laporan-keuangan-per-proyek.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laporan-keuangan-per-proyeks/:id",
+      "handler": "laporan-keuangan-per-proyek.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

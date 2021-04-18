@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posting_fixed_assets",
+  "info": {
+    "name": "posting_fixed_asset"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

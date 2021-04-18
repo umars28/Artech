@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/akuisisi-lahans",
+      "handler": "akuisisi-lahan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/akuisisi-lahans/count",
+      "handler": "akuisisi-lahan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/akuisisi-lahans/:id",
+      "handler": "akuisisi-lahan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/akuisisi-lahans",
+      "handler": "akuisisi-lahan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/akuisisi-lahans/:id",
+      "handler": "akuisisi-lahan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/akuisisi-lahans/:id",
+      "handler": "akuisisi-lahan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

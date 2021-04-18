@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penerimaan_ipls",
+  "info": {
+    "name": "penerimaan_ipl"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

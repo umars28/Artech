@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "umur_tunggakan_cicilan_konsumen",
+  "info": {
+    "name": "umur_tunggakan_cicilan_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

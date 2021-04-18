@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "account_codes",
+  "info": {
+    "name": "kode_akun",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

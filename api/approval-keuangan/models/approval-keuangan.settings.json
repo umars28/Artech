@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "approval_keuangans",
+  "info": {
+    "name": "approval_keuangan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

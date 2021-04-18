@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/neraca-lajurs",
+      "handler": "neraca-lajur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/neraca-lajurs/count",
+      "handler": "neraca-lajur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/neraca-lajurs/:id",
+      "handler": "neraca-lajur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/neraca-lajurs",
+      "handler": "neraca-lajur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/neraca-lajurs/:id",
+      "handler": "neraca-lajur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/neraca-lajurs/:id",
+      "handler": "neraca-lajur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

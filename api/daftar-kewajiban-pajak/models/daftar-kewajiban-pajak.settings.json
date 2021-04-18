@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daftar_kewajiban_pajaks",
+  "info": {
+    "name": "daftar_kewajiban_pajak"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

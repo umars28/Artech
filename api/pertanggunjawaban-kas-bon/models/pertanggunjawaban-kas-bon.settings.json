@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pertanggunjawaban_kas_bons",
+  "info": {
+    "name": "pertanggunjawaban_kas_bon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

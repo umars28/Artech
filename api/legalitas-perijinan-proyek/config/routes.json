@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/legalitas-perijinan-proyeks",
+      "handler": "legalitas-perijinan-proyek.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/legalitas-perijinan-proyeks/count",
+      "handler": "legalitas-perijinan-proyek.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/legalitas-perijinan-proyeks/:id",
+      "handler": "legalitas-perijinan-proyek.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/legalitas-perijinan-proyeks",
+      "handler": "legalitas-perijinan-proyek.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/legalitas-perijinan-proyeks/:id",
+      "handler": "legalitas-perijinan-proyek.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/legalitas-perijinan-proyeks/:id",
+      "handler": "legalitas-perijinan-proyek.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

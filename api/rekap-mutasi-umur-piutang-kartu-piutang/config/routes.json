@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekap-mutasi-umur-piutang-kartu-piutangs",
+      "handler": "rekap-mutasi-umur-piutang-kartu-piutang.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-mutasi-umur-piutang-kartu-piutangs/count",
+      "handler": "rekap-mutasi-umur-piutang-kartu-piutang.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-mutasi-umur-piutang-kartu-piutangs/:id",
+      "handler": "rekap-mutasi-umur-piutang-kartu-piutang.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekap-mutasi-umur-piutang-kartu-piutangs",
+      "handler": "rekap-mutasi-umur-piutang-kartu-piutang.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekap-mutasi-umur-piutang-kartu-piutangs/:id",
+      "handler": "rekap-mutasi-umur-piutang-kartu-piutang.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekap-mutasi-umur-piutang-kartu-piutangs/:id",
+      "handler": "rekap-mutasi-umur-piutang-kartu-piutang.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

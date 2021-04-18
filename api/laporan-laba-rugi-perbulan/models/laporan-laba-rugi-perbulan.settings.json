@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laporan_laba_rugi_perbulans",
+  "info": {
+    "name": "laporan_laba_rugi_perbulan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

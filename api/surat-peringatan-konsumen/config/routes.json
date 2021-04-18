@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/surat-peringatan-konsumen",
+      "handler": "surat-peringatan-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surat-peringatan-konsumen/count",
+      "handler": "surat-peringatan-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surat-peringatan-konsumen/:id",
+      "handler": "surat-peringatan-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/surat-peringatan-konsumen",
+      "handler": "surat-peringatan-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/surat-peringatan-konsumen/:id",
+      "handler": "surat-peringatan-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/surat-peringatan-konsumen/:id",
+      "handler": "surat-peringatan-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

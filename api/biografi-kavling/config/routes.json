@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/biografi-kavlings",
+      "handler": "biografi-kavling.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/biografi-kavlings/count",
+      "handler": "biografi-kavling.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/biografi-kavlings/:id",
+      "handler": "biografi-kavling.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/biografi-kavlings",
+      "handler": "biografi-kavling.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/biografi-kavlings/:id",
+      "handler": "biografi-kavling.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/biografi-kavlings/:id",
+      "handler": "biografi-kavling.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

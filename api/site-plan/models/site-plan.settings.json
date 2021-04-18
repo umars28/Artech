@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_plans",
+  "info": {
+    "name": "site_plan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

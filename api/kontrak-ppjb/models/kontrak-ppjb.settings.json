@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kontrak_ppjbs",
+  "info": {
+    "name": "kontrak_ppjb"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

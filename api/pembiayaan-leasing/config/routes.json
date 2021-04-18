@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembiayaan-leasings",
+      "handler": "pembiayaan-leasing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembiayaan-leasings/count",
+      "handler": "pembiayaan-leasing.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembiayaan-leasings/:id",
+      "handler": "pembiayaan-leasing.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembiayaan-leasings",
+      "handler": "pembiayaan-leasing.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembiayaan-leasings/:id",
+      "handler": "pembiayaan-leasing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembiayaan-leasings/:id",
+      "handler": "pembiayaan-leasing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rekap_alasan_pembatalans",
+  "info": {
+    "name": "rekap_alasan_pembatalan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

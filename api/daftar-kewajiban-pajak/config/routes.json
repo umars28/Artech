@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daftar-kewajiban-pajaks",
+      "handler": "daftar-kewajiban-pajak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-kewajiban-pajaks/count",
+      "handler": "daftar-kewajiban-pajak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-kewajiban-pajaks/:id",
+      "handler": "daftar-kewajiban-pajak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daftar-kewajiban-pajaks",
+      "handler": "daftar-kewajiban-pajak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daftar-kewajiban-pajaks/:id",
+      "handler": "daftar-kewajiban-pajak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daftar-kewajiban-pajaks/:id",
+      "handler": "daftar-kewajiban-pajak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

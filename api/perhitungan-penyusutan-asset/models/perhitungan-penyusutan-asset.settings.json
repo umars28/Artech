@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perhitungan_penyusutan_assets",
+  "info": {
+    "name": "perhitungan_penyusutan_asset"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

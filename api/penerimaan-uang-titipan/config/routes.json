@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/penerimaan-uang-titipans",
+      "handler": "penerimaan-uang-titipan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-uang-titipans/count",
+      "handler": "penerimaan-uang-titipan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-uang-titipans/:id",
+      "handler": "penerimaan-uang-titipan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/penerimaan-uang-titipans",
+      "handler": "penerimaan-uang-titipan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/penerimaan-uang-titipans/:id",
+      "handler": "penerimaan-uang-titipan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/penerimaan-uang-titipans/:id",
+      "handler": "penerimaan-uang-titipan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/karyawans",
+      "handler": "karyawan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/karyawans/count",
+      "handler": "karyawan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/karyawans/:id",
+      "handler": "karyawan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/karyawans",
+      "handler": "karyawan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/karyawans/:id",
+      "handler": "karyawan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/karyawans/:id",
+      "handler": "karyawan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

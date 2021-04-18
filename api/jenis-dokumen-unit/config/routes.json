@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jenis-dokumen-units",
+      "handler": "jenis-dokumen-unit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jenis-dokumen-units/count",
+      "handler": "jenis-dokumen-unit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jenis-dokumen-units/:id",
+      "handler": "jenis-dokumen-unit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jenis-dokumen-units",
+      "handler": "jenis-dokumen-unit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jenis-dokumen-units/:id",
+      "handler": "jenis-dokumen-unit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jenis-dokumen-units/:id",
+      "handler": "jenis-dokumen-unit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

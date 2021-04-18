@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kolek_pajaks",
+  "info": {
+    "name": "kolek_pajak"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-biaya-unit-propertis",
+      "handler": "pembayaran-biaya-unit-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-biaya-unit-propertis/count",
+      "handler": "pembayaran-biaya-unit-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-biaya-unit-propertis/:id",
+      "handler": "pembayaran-biaya-unit-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-biaya-unit-propertis",
+      "handler": "pembayaran-biaya-unit-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-biaya-unit-propertis/:id",
+      "handler": "pembayaran-biaya-unit-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-biaya-unit-propertis/:id",
+      "handler": "pembayaran-biaya-unit-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

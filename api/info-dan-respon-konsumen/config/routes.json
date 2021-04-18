@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/info-dan-respon-konsumen",
+      "handler": "info-dan-respon-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/info-dan-respon-konsumen/count",
+      "handler": "info-dan-respon-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/info-dan-respon-konsumen/:id",
+      "handler": "info-dan-respon-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/info-dan-respon-konsumen",
+      "handler": "info-dan-respon-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/info-dan-respon-konsumen/:id",
+      "handler": "info-dan-respon-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/info-dan-respon-konsumen/:id",
+      "handler": "info-dan-respon-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

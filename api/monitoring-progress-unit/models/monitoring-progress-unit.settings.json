@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monitoring_progress_units",
+  "info": {
+    "name": "monitoring_progress_unit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

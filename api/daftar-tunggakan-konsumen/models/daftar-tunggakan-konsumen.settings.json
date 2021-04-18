@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daftar_tunggakan_konsumen",
+  "info": {
+    "name": "daftar_tunggakan_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

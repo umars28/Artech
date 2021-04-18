@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/over-alih-unit-properti-konsumen",
+      "handler": "over-alih-unit-properti-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/over-alih-unit-properti-konsumen/count",
+      "handler": "over-alih-unit-properti-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/over-alih-unit-properti-konsumen/:id",
+      "handler": "over-alih-unit-properti-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/over-alih-unit-properti-konsumen",
+      "handler": "over-alih-unit-properti-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/over-alih-unit-properti-konsumen/:id",
+      "handler": "over-alih-unit-properti-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/over-alih-unit-properti-konsumen/:id",
+      "handler": "over-alih-unit-properti-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

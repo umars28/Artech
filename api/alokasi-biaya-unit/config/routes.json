@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alokasi-biaya-units",
+      "handler": "alokasi-biaya-unit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alokasi-biaya-units/count",
+      "handler": "alokasi-biaya-unit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alokasi-biaya-units/:id",
+      "handler": "alokasi-biaya-unit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alokasi-biaya-units",
+      "handler": "alokasi-biaya-unit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alokasi-biaya-units/:id",
+      "handler": "alokasi-biaya-unit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alokasi-biaya-units/:id",
+      "handler": "alokasi-biaya-unit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

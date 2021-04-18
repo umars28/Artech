@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoice_kontraktors",
+  "info": {
+    "name": "invoice_kontraktor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

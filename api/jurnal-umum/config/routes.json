@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jurnal-umums",
+      "handler": "jurnal-umum.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jurnal-umums/count",
+      "handler": "jurnal-umum.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jurnal-umums/:id",
+      "handler": "jurnal-umum.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jurnal-umums",
+      "handler": "jurnal-umum.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jurnal-umums/:id",
+      "handler": "jurnal-umum.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jurnal-umums/:id",
+      "handler": "jurnal-umum.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

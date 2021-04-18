@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perijinan_proyeks",
+  "info": {
+    "name": "perijinan_proyek"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

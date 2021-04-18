@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pembayaran_biaya_unit_propertis",
+  "info": {
+    "name": "pembayaran_biaya_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

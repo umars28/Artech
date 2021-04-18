@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "status_booking_unit_propertis",
+  "info": {
+    "name": "status_booking_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-akad-kredits",
+      "handler": "monitoring-akad-kredit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-akad-kredits/count",
+      "handler": "monitoring-akad-kredit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-akad-kredits/:id",
+      "handler": "monitoring-akad-kredit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-akad-kredits",
+      "handler": "monitoring-akad-kredit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-akad-kredits/:id",
+      "handler": "monitoring-akad-kredit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-akad-kredits/:id",
+      "handler": "monitoring-akad-kredit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

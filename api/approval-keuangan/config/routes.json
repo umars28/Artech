@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/approval-keuangans",
+      "handler": "approval-keuangan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/approval-keuangans/count",
+      "handler": "approval-keuangan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/approval-keuangans/:id",
+      "handler": "approval-keuangan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/approval-keuangans",
+      "handler": "approval-keuangan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/approval-keuangans/:id",
+      "handler": "approval-keuangan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/approval-keuangans/:id",
+      "handler": "approval-keuangan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

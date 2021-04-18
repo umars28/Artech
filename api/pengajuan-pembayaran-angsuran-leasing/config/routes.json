@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengajuan-pembayaran-angsuran-leasings",
+      "handler": "pengajuan-pembayaran-angsuran-leasing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pembayaran-angsuran-leasings/count",
+      "handler": "pengajuan-pembayaran-angsuran-leasing.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pembayaran-angsuran-leasings/:id",
+      "handler": "pengajuan-pembayaran-angsuran-leasing.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengajuan-pembayaran-angsuran-leasings",
+      "handler": "pengajuan-pembayaran-angsuran-leasing.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengajuan-pembayaran-angsuran-leasings/:id",
+      "handler": "pengajuan-pembayaran-angsuran-leasing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengajuan-pembayaran-angsuran-leasings/:id",
+      "handler": "pengajuan-pembayaran-angsuran-leasing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

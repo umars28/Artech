@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pembiayaan_leasings",
+  "info": {
+    "name": "pembiayaan_leasing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

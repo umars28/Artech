@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pencairan-pembiayaans",
+      "handler": "pencairan-pembiayaan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencairan-pembiayaans/count",
+      "handler": "pencairan-pembiayaan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencairan-pembiayaans/:id",
+      "handler": "pencairan-pembiayaan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pencairan-pembiayaans",
+      "handler": "pencairan-pembiayaan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pencairan-pembiayaans/:id",
+      "handler": "pencairan-pembiayaan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pencairan-pembiayaans/:id",
+      "handler": "pencairan-pembiayaan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-pembiayaans",
+      "handler": "pembayaran-pembiayaan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-pembiayaans/count",
+      "handler": "pembayaran-pembiayaan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-pembiayaans/:id",
+      "handler": "pembayaran-pembiayaan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-pembiayaans",
+      "handler": "pembayaran-pembiayaan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-pembiayaans/:id",
+      "handler": "pembayaran-pembiayaan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-pembiayaans/:id",
+      "handler": "pembayaran-pembiayaan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

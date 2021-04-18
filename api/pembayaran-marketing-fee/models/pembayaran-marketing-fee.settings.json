@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pembayaran_marketing_fees",
+  "info": {
+    "name": "pembayaran_marketing_fee"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

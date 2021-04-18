@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "progress_pembangunan_propertis",
+  "info": {
+    "name": "progress_pembangunan_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-reservasi-propertis",
+      "handler": "monitoring-reservasi-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-reservasi-propertis/count",
+      "handler": "monitoring-reservasi-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-reservasi-propertis/:id",
+      "handler": "monitoring-reservasi-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-reservasi-propertis",
+      "handler": "monitoring-reservasi-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-reservasi-propertis/:id",
+      "handler": "monitoring-reservasi-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-reservasi-propertis/:id",
+      "handler": "monitoring-reservasi-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

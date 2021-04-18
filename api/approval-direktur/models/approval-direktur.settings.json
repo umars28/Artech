@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "approval_direkturs",
+  "info": {
+    "name": "approval_direktur"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

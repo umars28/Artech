@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perbandingan_rab_dan_realisasis",
+  "info": {
+    "name": "perbandingan_rab_dan_realisasi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

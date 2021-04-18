@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/approval-direkturs",
+      "handler": "approval-direktur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/approval-direkturs/count",
+      "handler": "approval-direktur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/approval-direkturs/:id",
+      "handler": "approval-direktur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/approval-direkturs",
+      "handler": "approval-direktur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/approval-direkturs/:id",
+      "handler": "approval-direktur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/approval-direkturs/:id",
+      "handler": "approval-direktur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

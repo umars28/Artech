@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-uang-mukas",
+      "handler": "monitoring-uang-muka.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-uang-mukas/count",
+      "handler": "monitoring-uang-muka.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-uang-mukas/:id",
+      "handler": "monitoring-uang-muka.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-uang-mukas",
+      "handler": "monitoring-uang-muka.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-uang-mukas/:id",
+      "handler": "monitoring-uang-muka.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-uang-mukas/:id",
+      "handler": "monitoring-uang-muka.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

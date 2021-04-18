@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/posting-jurnals",
+      "handler": "posting-jurnal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posting-jurnals/count",
+      "handler": "posting-jurnal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posting-jurnals/:id",
+      "handler": "posting-jurnal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/posting-jurnals",
+      "handler": "posting-jurnal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/posting-jurnals/:id",
+      "handler": "posting-jurnal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/posting-jurnals/:id",
+      "handler": "posting-jurnal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/penerimaan-uang-muka-angsurans",
+      "handler": "penerimaan-uang-muka-angsuran.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-uang-muka-angsurans/count",
+      "handler": "penerimaan-uang-muka-angsuran.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-uang-muka-angsurans/:id",
+      "handler": "penerimaan-uang-muka-angsuran.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/penerimaan-uang-muka-angsurans",
+      "handler": "penerimaan-uang-muka-angsuran.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/penerimaan-uang-muka-angsurans/:id",
+      "handler": "penerimaan-uang-muka-angsuran.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/penerimaan-uang-muka-angsurans/:id",
+      "handler": "penerimaan-uang-muka-angsuran.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

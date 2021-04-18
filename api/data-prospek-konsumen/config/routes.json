@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/data-prospek-konsumen",
+      "handler": "data-prospek-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-prospek-konsumen/count",
+      "handler": "data-prospek-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-prospek-konsumen/:id",
+      "handler": "data-prospek-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/data-prospek-konsumen",
+      "handler": "data-prospek-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/data-prospek-konsumen/:id",
+      "handler": "data-prospek-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/data-prospek-konsumen/:id",
+      "handler": "data-prospek-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

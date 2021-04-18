@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pindah_bukus",
+  "info": {
+    "name": "pindah_buku"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

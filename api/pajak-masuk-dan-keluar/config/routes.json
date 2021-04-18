@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pajak-masuk-dan-keluars",
+      "handler": "pajak-masuk-dan-keluar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pajak-masuk-dan-keluars/count",
+      "handler": "pajak-masuk-dan-keluar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pajak-masuk-dan-keluars/:id",
+      "handler": "pajak-masuk-dan-keluar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pajak-masuk-dan-keluars",
+      "handler": "pajak-masuk-dan-keluar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pajak-masuk-dan-keluars/:id",
+      "handler": "pajak-masuk-dan-keluar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pajak-masuk-dan-keluars/:id",
+      "handler": "pajak-masuk-dan-keluar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

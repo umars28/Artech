@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengajuan-kas-bons",
+      "handler": "pengajuan-kas-bon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-kas-bons/count",
+      "handler": "pengajuan-kas-bon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-kas-bons/:id",
+      "handler": "pengajuan-kas-bon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengajuan-kas-bons",
+      "handler": "pengajuan-kas-bon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengajuan-kas-bons/:id",
+      "handler": "pengajuan-kas-bon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengajuan-kas-bons/:id",
+      "handler": "pengajuan-kas-bon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

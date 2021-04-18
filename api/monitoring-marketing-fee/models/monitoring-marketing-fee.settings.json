@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monitoring_marketing_fees",
+  "info": {
+    "name": "monitoring_marketing_fee"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

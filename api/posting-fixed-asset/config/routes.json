@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/posting-fixed-assets",
+      "handler": "posting-fixed-asset.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posting-fixed-assets/count",
+      "handler": "posting-fixed-asset.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/posting-fixed-assets/:id",
+      "handler": "posting-fixed-asset.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/posting-fixed-assets",
+      "handler": "posting-fixed-asset.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/posting-fixed-assets/:id",
+      "handler": "posting-fixed-asset.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/posting-fixed-assets/:id",
+      "handler": "posting-fixed-asset.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

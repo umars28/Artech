@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analisa_rasios",
+  "info": {
+    "name": "analisa_rasio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

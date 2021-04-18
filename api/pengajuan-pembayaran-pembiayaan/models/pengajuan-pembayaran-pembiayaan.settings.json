@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengajuan_pembayaran_pembiayaans",
+  "info": {
+    "name": "pengajuan_pembayaran_pembiayaan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

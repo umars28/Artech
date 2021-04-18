@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monitoring_berkas_konsumen",
+  "info": {
+    "name": "monitoring_berkas_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

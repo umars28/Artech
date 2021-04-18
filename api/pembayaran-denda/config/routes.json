@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-dendas",
+      "handler": "pembayaran-denda.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-dendas/count",
+      "handler": "pembayaran-denda.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-dendas/:id",
+      "handler": "pembayaran-denda.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-dendas",
+      "handler": "pembayaran-denda.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-dendas/:id",
+      "handler": "pembayaran-denda.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-dendas/:id",
+      "handler": "pembayaran-denda.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

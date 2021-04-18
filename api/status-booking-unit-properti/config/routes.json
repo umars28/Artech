@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/status-booking-unit-propertis",
+      "handler": "status-booking-unit-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/status-booking-unit-propertis/count",
+      "handler": "status-booking-unit-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/status-booking-unit-propertis/:id",
+      "handler": "status-booking-unit-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/status-booking-unit-propertis",
+      "handler": "status-booking-unit-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/status-booking-unit-propertis/:id",
+      "handler": "status-booking-unit-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/status-booking-unit-propertis/:id",
+      "handler": "status-booking-unit-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekap-alasan-pembatalans",
+      "handler": "rekap-alasan-pembatalan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-alasan-pembatalans/count",
+      "handler": "rekap-alasan-pembatalan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-alasan-pembatalans/:id",
+      "handler": "rekap-alasan-pembatalan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekap-alasan-pembatalans",
+      "handler": "rekap-alasan-pembatalan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekap-alasan-pembatalans/:id",
+      "handler": "rekap-alasan-pembatalan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekap-alasan-pembatalans/:id",
+      "handler": "rekap-alasan-pembatalan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

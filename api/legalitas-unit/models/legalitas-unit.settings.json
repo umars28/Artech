@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legalitas_units",
+  "info": {
+    "name": "legalitas_unit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

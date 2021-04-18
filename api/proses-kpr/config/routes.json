@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/proses-kprs",
+      "handler": "proses-kpr.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/proses-kprs/count",
+      "handler": "proses-kpr.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/proses-kprs/:id",
+      "handler": "proses-kpr.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/proses-kprs",
+      "handler": "proses-kpr.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/proses-kprs/:id",
+      "handler": "proses-kpr.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/proses-kprs/:id",
+      "handler": "proses-kpr.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

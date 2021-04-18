@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faktur_pajaks",
+  "info": {
+    "name": "faktur_pajak"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

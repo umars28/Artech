@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-invoice-suppliers",
+      "handler": "monitoring-invoice-supplier.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-invoice-suppliers/count",
+      "handler": "monitoring-invoice-supplier.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-invoice-suppliers/:id",
+      "handler": "monitoring-invoice-supplier.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-invoice-suppliers",
+      "handler": "monitoring-invoice-supplier.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-invoice-suppliers/:id",
+      "handler": "monitoring-invoice-supplier.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-invoice-suppliers/:id",
+      "handler": "monitoring-invoice-supplier.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

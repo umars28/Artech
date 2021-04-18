@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-angsurans",
+      "handler": "monitoring-angsuran.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-angsurans/count",
+      "handler": "monitoring-angsuran.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-angsurans/:id",
+      "handler": "monitoring-angsuran.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-angsurans",
+      "handler": "monitoring-angsuran.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-angsurans/:id",
+      "handler": "monitoring-angsuran.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-angsurans/:id",
+      "handler": "monitoring-angsuran.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rekap_penerimaan_dari_konsumen",
+  "info": {
+    "name": "rekap_penerimaan_dari_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

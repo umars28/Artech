@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-pencapaian-dan-retensi-banks",
+      "handler": "monitoring-pencapaian-dan-retensi-bank.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-pencapaian-dan-retensi-banks/count",
+      "handler": "monitoring-pencapaian-dan-retensi-bank.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-pencapaian-dan-retensi-banks/:id",
+      "handler": "monitoring-pencapaian-dan-retensi-bank.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-pencapaian-dan-retensi-banks",
+      "handler": "monitoring-pencapaian-dan-retensi-bank.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-pencapaian-dan-retensi-banks/:id",
+      "handler": "monitoring-pencapaian-dan-retensi-bank.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-pencapaian-dan-retensi-banks/:id",
+      "handler": "monitoring-pencapaian-dan-retensi-bank.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

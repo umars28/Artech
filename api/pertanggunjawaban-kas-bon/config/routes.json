@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pertanggunjawaban-kas-bons",
+      "handler": "pertanggunjawaban-kas-bon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pertanggunjawaban-kas-bons/count",
+      "handler": "pertanggunjawaban-kas-bon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pertanggunjawaban-kas-bons/:id",
+      "handler": "pertanggunjawaban-kas-bon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pertanggunjawaban-kas-bons",
+      "handler": "pertanggunjawaban-kas-bon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pertanggunjawaban-kas-bons/:id",
+      "handler": "pertanggunjawaban-kas-bon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pertanggunjawaban-kas-bons/:id",
+      "handler": "pertanggunjawaban-kas-bon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

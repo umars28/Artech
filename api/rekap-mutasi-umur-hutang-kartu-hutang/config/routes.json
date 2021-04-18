@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekap-mutasi-umur-hutang-kartu-hutangs",
+      "handler": "rekap-mutasi-umur-hutang-kartu-hutang.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-mutasi-umur-hutang-kartu-hutangs/count",
+      "handler": "rekap-mutasi-umur-hutang-kartu-hutang.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-mutasi-umur-hutang-kartu-hutangs/:id",
+      "handler": "rekap-mutasi-umur-hutang-kartu-hutang.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekap-mutasi-umur-hutang-kartu-hutangs",
+      "handler": "rekap-mutasi-umur-hutang-kartu-hutang.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekap-mutasi-umur-hutang-kartu-hutangs/:id",
+      "handler": "rekap-mutasi-umur-hutang-kartu-hutang.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekap-mutasi-umur-hutang-kartu-hutangs/:id",
+      "handler": "rekap-mutasi-umur-hutang-kartu-hutang.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

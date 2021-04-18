@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekap-tunggakans",
+      "handler": "rekap-tunggakan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-tunggakans/count",
+      "handler": "rekap-tunggakan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-tunggakans/:id",
+      "handler": "rekap-tunggakan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekap-tunggakans",
+      "handler": "rekap-tunggakan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekap-tunggakans/:id",
+      "handler": "rekap-tunggakan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekap-tunggakans/:id",
+      "handler": "rekap-tunggakan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

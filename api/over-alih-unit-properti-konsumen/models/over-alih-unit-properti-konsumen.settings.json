@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "over_alih_unit_properti_konsumen",
+  "info": {
+    "name": "over_alih_unit_properti_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

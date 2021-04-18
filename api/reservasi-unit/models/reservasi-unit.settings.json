@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservasi_units",
+  "info": {
+    "name": "reservasi_unit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

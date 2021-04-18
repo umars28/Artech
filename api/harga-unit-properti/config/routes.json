@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/harga-unit-propertis",
+      "handler": "harga-unit-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/harga-unit-propertis/count",
+      "handler": "harga-unit-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/harga-unit-propertis/:id",
+      "handler": "harga-unit-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/harga-unit-propertis",
+      "handler": "harga-unit-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/harga-unit-propertis/:id",
+      "handler": "harga-unit-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/harga-unit-propertis/:id",
+      "handler": "harga-unit-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

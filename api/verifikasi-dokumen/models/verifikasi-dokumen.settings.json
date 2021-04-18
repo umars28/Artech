@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verifikasi_dokumen",
+  "info": {
+    "name": "verifikasi_dokumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

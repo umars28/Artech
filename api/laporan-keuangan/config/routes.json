@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laporan-keuangans",
+      "handler": "laporan-keuangan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-keuangans/count",
+      "handler": "laporan-keuangan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-keuangans/:id",
+      "handler": "laporan-keuangan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laporan-keuangans",
+      "handler": "laporan-keuangan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laporan-keuangans/:id",
+      "handler": "laporan-keuangan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laporan-keuangans/:id",
+      "handler": "laporan-keuangan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

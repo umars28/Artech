@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "riwayat_sertifikats",
+  "info": {
+    "name": "riwayat_sertifikat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

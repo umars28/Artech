@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-serah-terima-units",
+      "handler": "monitoring-serah-terima-unit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-serah-terima-units/count",
+      "handler": "monitoring-serah-terima-unit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-serah-terima-units/:id",
+      "handler": "monitoring-serah-terima-unit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-serah-terima-units",
+      "handler": "monitoring-serah-terima-unit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-serah-terima-units/:id",
+      "handler": "monitoring-serah-terima-unit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-serah-terima-units/:id",
+      "handler": "monitoring-serah-terima-unit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

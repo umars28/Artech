@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/verifikasi-dokumen",
+      "handler": "verifikasi-dokumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/verifikasi-dokumen/count",
+      "handler": "verifikasi-dokumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/verifikasi-dokumen/:id",
+      "handler": "verifikasi-dokumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/verifikasi-dokumen",
+      "handler": "verifikasi-dokumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/verifikasi-dokumen/:id",
+      "handler": "verifikasi-dokumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/verifikasi-dokumen/:id",
+      "handler": "verifikasi-dokumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

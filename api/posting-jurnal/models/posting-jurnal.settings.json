@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posting_jurnals",
+  "info": {
+    "name": "posting_jurnal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

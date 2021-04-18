@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-kuitansis",
+      "handler": "monitoring-kuitansi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-kuitansis/count",
+      "handler": "monitoring-kuitansi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-kuitansis/:id",
+      "handler": "monitoring-kuitansi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-kuitansis",
+      "handler": "monitoring-kuitansi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-kuitansis/:id",
+      "handler": "monitoring-kuitansi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-kuitansis/:id",
+      "handler": "monitoring-kuitansi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

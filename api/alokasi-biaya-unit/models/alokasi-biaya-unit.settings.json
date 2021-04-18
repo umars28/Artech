@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alokasi_biaya_units",
+  "info": {
+    "name": "alokasi_biaya_unit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

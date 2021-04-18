@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pencairan_kas_bons",
+  "info": {
+    "name": "pencairan_kas_bon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

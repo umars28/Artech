@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laporan-cash-flows",
+      "handler": "laporan-cash-flow.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-cash-flows/count",
+      "handler": "laporan-cash-flow.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-cash-flows/:id",
+      "handler": "laporan-cash-flow.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laporan-cash-flows",
+      "handler": "laporan-cash-flow.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laporan-cash-flows/:id",
+      "handler": "laporan-cash-flow.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laporan-cash-flows/:id",
+      "handler": "laporan-cash-flow.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

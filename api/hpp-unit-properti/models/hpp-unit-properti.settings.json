@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hpp_unit_propertis",
+  "info": {
+    "name": "hpp_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

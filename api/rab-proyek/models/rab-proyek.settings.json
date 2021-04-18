@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rab_proyeks",
+  "info": {
+    "name": "rab_proyek"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

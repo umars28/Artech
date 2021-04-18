@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laporan_keuangans",
+  "info": {
+    "name": "laporan_keuangan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/faktur-pajaks",
+      "handler": "faktur-pajak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faktur-pajaks/count",
+      "handler": "faktur-pajak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faktur-pajaks/:id",
+      "handler": "faktur-pajak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/faktur-pajaks",
+      "handler": "faktur-pajak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/faktur-pajaks/:id",
+      "handler": "faktur-pajak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/faktur-pajaks/:id",
+      "handler": "faktur-pajak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

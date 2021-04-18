@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengajuan_kas_bons",
+  "info": {
+    "name": "pengajuan_kas_bon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

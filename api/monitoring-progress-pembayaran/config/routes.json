@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-progress-pembayarans",
+      "handler": "monitoring-progress-pembayaran.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-progress-pembayarans/count",
+      "handler": "monitoring-progress-pembayaran.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-progress-pembayarans/:id",
+      "handler": "monitoring-progress-pembayaran.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-progress-pembayarans",
+      "handler": "monitoring-progress-pembayaran.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-progress-pembayarans/:id",
+      "handler": "monitoring-progress-pembayaran.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-progress-pembayarans/:id",
+      "handler": "monitoring-progress-pembayaran.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laporan_cash_flows",
+  "info": {
+    "name": "laporan_cash_flow"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

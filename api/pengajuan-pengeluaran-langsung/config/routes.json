@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengajuan-pengeluaran-langsungs",
+      "handler": "pengajuan-pengeluaran-langsung.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pengeluaran-langsungs/count",
+      "handler": "pengajuan-pengeluaran-langsung.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengajuan-pengeluaran-langsungs/:id",
+      "handler": "pengajuan-pengeluaran-langsung.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengajuan-pengeluaran-langsungs",
+      "handler": "pengajuan-pengeluaran-langsung.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengajuan-pengeluaran-langsungs/:id",
+      "handler": "pengajuan-pengeluaran-langsung.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengajuan-pengeluaran-langsungs/:id",
+      "handler": "pengajuan-pengeluaran-langsung.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

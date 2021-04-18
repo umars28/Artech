@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/import-pencairan-kpr-excels",
+      "handler": "import-pencairan-kpr-excel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/import-pencairan-kpr-excels/count",
+      "handler": "import-pencairan-kpr-excel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/import-pencairan-kpr-excels/:id",
+      "handler": "import-pencairan-kpr-excel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/import-pencairan-kpr-excels",
+      "handler": "import-pencairan-kpr-excel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/import-pencairan-kpr-excels/:id",
+      "handler": "import-pencairan-kpr-excel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/import-pencairan-kpr-excels/:id",
+      "handler": "import-pencairan-kpr-excel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

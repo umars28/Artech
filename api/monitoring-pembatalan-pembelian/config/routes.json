@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-pembatalan-pembelians",
+      "handler": "monitoring-pembatalan-pembelian.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-pembatalan-pembelians/count",
+      "handler": "monitoring-pembatalan-pembelian.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-pembatalan-pembelians/:id",
+      "handler": "monitoring-pembatalan-pembelian.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-pembatalan-pembelians",
+      "handler": "monitoring-pembatalan-pembelian.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-pembatalan-pembelians/:id",
+      "handler": "monitoring-pembatalan-pembelian.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-pembatalan-pembelians/:id",
+      "handler": "monitoring-pembatalan-pembelian.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

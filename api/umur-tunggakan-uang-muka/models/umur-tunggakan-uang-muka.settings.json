@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "umur_tunggakan_uang_mukas",
+  "info": {
+    "name": "umur_tunggakan_uang_muka"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

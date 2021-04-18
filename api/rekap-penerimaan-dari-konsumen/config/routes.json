@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekap-penerimaan-dari-konsumen",
+      "handler": "rekap-penerimaan-dari-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-penerimaan-dari-konsumen/count",
+      "handler": "rekap-penerimaan-dari-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekap-penerimaan-dari-konsumen/:id",
+      "handler": "rekap-penerimaan-dari-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekap-penerimaan-dari-konsumen",
+      "handler": "rekap-penerimaan-dari-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekap-penerimaan-dari-konsumen/:id",
+      "handler": "rekap-penerimaan-dari-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekap-penerimaan-dari-konsumen/:id",
+      "handler": "rekap-penerimaan-dari-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

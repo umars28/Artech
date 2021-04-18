@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "biografi_kavlings",
+  "info": {
+    "name": "biografi_kavling"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

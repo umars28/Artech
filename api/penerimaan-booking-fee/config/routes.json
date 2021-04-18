@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/penerimaan-booking-fees",
+      "handler": "penerimaan-booking-fee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-booking-fees/count",
+      "handler": "penerimaan-booking-fee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penerimaan-booking-fees/:id",
+      "handler": "penerimaan-booking-fee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/penerimaan-booking-fees",
+      "handler": "penerimaan-booking-fee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/penerimaan-booking-fees/:id",
+      "handler": "penerimaan-booking-fee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/penerimaan-booking-fees/:id",
+      "handler": "penerimaan-booking-fee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

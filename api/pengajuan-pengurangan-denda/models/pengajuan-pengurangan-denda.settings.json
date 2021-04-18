@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengajuan_pengurangan_dendas",
+  "info": {
+    "name": "pengajuan_pengurangan_denda"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

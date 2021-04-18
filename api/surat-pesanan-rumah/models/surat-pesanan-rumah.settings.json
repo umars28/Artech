@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surat_pesanan_rumahs",
+  "info": {
+    "name": "surat_pesanan_rumah"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

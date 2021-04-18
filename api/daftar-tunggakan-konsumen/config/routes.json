@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daftar-tunggakan-konsumen",
+      "handler": "daftar-tunggakan-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-tunggakan-konsumen/count",
+      "handler": "daftar-tunggakan-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-tunggakan-konsumen/:id",
+      "handler": "daftar-tunggakan-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daftar-tunggakan-konsumen",
+      "handler": "daftar-tunggakan-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daftar-tunggakan-konsumen/:id",
+      "handler": "daftar-tunggakan-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daftar-tunggakan-konsumen/:id",
+      "handler": "daftar-tunggakan-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

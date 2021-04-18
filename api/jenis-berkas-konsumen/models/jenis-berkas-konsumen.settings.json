@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jenis_berkas_konsumen",
+  "info": {
+    "name": "jenis_berkas_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

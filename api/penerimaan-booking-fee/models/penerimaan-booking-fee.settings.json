@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penerimaan_booking_fees",
+  "info": {
+    "name": "penerimaan_booking_fee"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

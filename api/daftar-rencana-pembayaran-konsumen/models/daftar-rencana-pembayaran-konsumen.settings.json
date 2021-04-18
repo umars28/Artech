@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daftar_rencana_pembayaran_konsumen",
+  "info": {
+    "name": "daftar_rencana_pembayaran_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

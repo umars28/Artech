@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembatalan-pembelian-unit-propertis",
+      "handler": "pembatalan-pembelian-unit-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembatalan-pembelian-unit-propertis/count",
+      "handler": "pembatalan-pembelian-unit-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembatalan-pembelian-unit-propertis/:id",
+      "handler": "pembatalan-pembelian-unit-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembatalan-pembelian-unit-propertis",
+      "handler": "pembatalan-pembelian-unit-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembatalan-pembelian-unit-propertis/:id",
+      "handler": "pembatalan-pembelian-unit-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembatalan-pembelian-unit-propertis/:id",
+      "handler": "pembatalan-pembelian-unit-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

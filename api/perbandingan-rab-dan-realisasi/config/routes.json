@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/perbandingan-rab-dan-realisasis",
+      "handler": "perbandingan-rab-dan-realisasi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perbandingan-rab-dan-realisasis/count",
+      "handler": "perbandingan-rab-dan-realisasi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perbandingan-rab-dan-realisasis/:id",
+      "handler": "perbandingan-rab-dan-realisasi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/perbandingan-rab-dan-realisasis",
+      "handler": "perbandingan-rab-dan-realisasi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perbandingan-rab-dan-realisasis/:id",
+      "handler": "perbandingan-rab-dan-realisasi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perbandingan-rab-dan-realisasis/:id",
+      "handler": "perbandingan-rab-dan-realisasi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

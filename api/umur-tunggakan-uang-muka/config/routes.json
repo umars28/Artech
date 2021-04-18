@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/umur-tunggakan-uang-mukas",
+      "handler": "umur-tunggakan-uang-muka.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/umur-tunggakan-uang-mukas/count",
+      "handler": "umur-tunggakan-uang-muka.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/umur-tunggakan-uang-mukas/:id",
+      "handler": "umur-tunggakan-uang-muka.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/umur-tunggakan-uang-mukas",
+      "handler": "umur-tunggakan-uang-muka.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/umur-tunggakan-uang-mukas/:id",
+      "handler": "umur-tunggakan-uang-muka.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/umur-tunggakan-uang-mukas/:id",
+      "handler": "umur-tunggakan-uang-muka.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

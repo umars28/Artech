@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengajuan_pengeluaran_langsungs",
+  "info": {
+    "name": "pengajuan_pengeluaran_langsung"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

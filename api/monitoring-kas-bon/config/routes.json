@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-kas-bons",
+      "handler": "monitoring-kas-bon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-kas-bons/count",
+      "handler": "monitoring-kas-bon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-kas-bons/:id",
+      "handler": "monitoring-kas-bon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-kas-bons",
+      "handler": "monitoring-kas-bon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-kas-bons/:id",
+      "handler": "monitoring-kas-bon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-kas-bons/:id",
+      "handler": "monitoring-kas-bon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

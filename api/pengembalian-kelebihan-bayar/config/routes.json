@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pengembalian-kelebihan-bayars",
+      "handler": "pengembalian-kelebihan-bayar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengembalian-kelebihan-bayars/count",
+      "handler": "pengembalian-kelebihan-bayar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pengembalian-kelebihan-bayars/:id",
+      "handler": "pengembalian-kelebihan-bayar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pengembalian-kelebihan-bayars",
+      "handler": "pengembalian-kelebihan-bayar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pengembalian-kelebihan-bayars/:id",
+      "handler": "pengembalian-kelebihan-bayar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pengembalian-kelebihan-bayars/:id",
+      "handler": "pengembalian-kelebihan-bayar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

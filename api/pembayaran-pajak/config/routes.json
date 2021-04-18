@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-pajaks",
+      "handler": "pembayaran-pajak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-pajaks/count",
+      "handler": "pembayaran-pajak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-pajaks/:id",
+      "handler": "pembayaran-pajak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-pajaks",
+      "handler": "pembayaran-pajak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-pajaks/:id",
+      "handler": "pembayaran-pajak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-pajaks/:id",
+      "handler": "pembayaran-pajak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

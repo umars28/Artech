@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/perijinan-proyeks",
+      "handler": "perijinan-proyek.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perijinan-proyeks/count",
+      "handler": "perijinan-proyek.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perijinan-proyeks/:id",
+      "handler": "perijinan-proyek.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/perijinan-proyeks",
+      "handler": "perijinan-proyek.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perijinan-proyeks/:id",
+      "handler": "perijinan-proyek.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perijinan-proyeks/:id",
+      "handler": "perijinan-proyek.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

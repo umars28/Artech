@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/riwayat-sertifikats",
+      "handler": "riwayat-sertifikat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/riwayat-sertifikats/count",
+      "handler": "riwayat-sertifikat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/riwayat-sertifikats/:id",
+      "handler": "riwayat-sertifikat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/riwayat-sertifikats",
+      "handler": "riwayat-sertifikat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/riwayat-sertifikats/:id",
+      "handler": "riwayat-sertifikat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/riwayat-sertifikats/:id",
+      "handler": "riwayat-sertifikat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

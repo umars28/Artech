@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengajuan_pembayaran_angsuran_leasings",
+  "info": {
+    "name": "pengajuan_pembayaran_angsuran_leasing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

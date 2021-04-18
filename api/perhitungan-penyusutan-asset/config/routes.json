@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/perhitungan-penyusutan-assets",
+      "handler": "perhitungan-penyusutan-asset.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perhitungan-penyusutan-assets/count",
+      "handler": "perhitungan-penyusutan-asset.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perhitungan-penyusutan-assets/:id",
+      "handler": "perhitungan-penyusutan-asset.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/perhitungan-penyusutan-assets",
+      "handler": "perhitungan-penyusutan-asset.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perhitungan-penyusutan-assets/:id",
+      "handler": "perhitungan-penyusutan-asset.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perhitungan-penyusutan-assets/:id",
+      "handler": "perhitungan-penyusutan-asset.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

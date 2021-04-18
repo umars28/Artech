@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surat_peringatan_konsumen",
+  "info": {
+    "name": "surat_peringatan_konsumen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

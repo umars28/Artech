@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pencairan-kprs",
+      "handler": "pencairan-kpr.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencairan-kprs/count",
+      "handler": "pencairan-kpr.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencairan-kprs/:id",
+      "handler": "pencairan-kpr.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pencairan-kprs",
+      "handler": "pencairan-kpr.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pencairan-kprs/:id",
+      "handler": "pencairan-kpr.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pencairan-kprs/:id",
+      "handler": "pencairan-kpr.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengembalian_kelebihan_bayars",
+  "info": {
+    "name": "pengembalian_kelebihan_bayar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laporan-laba-rugi-perbulans",
+      "handler": "laporan-laba-rugi-perbulan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-laba-rugi-perbulans/count",
+      "handler": "laporan-laba-rugi-perbulan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-laba-rugi-perbulans/:id",
+      "handler": "laporan-laba-rugi-perbulan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laporan-laba-rugi-perbulans",
+      "handler": "laporan-laba-rugi-perbulan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laporan-laba-rugi-perbulans/:id",
+      "handler": "laporan-laba-rugi-perbulan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laporan-laba-rugi-perbulans/:id",
+      "handler": "laporan-laba-rugi-perbulan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

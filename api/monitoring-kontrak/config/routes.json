@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-kontraks",
+      "handler": "monitoring-kontrak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-kontraks/count",
+      "handler": "monitoring-kontrak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-kontraks/:id",
+      "handler": "monitoring-kontrak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-kontraks",
+      "handler": "monitoring-kontrak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-kontraks/:id",
+      "handler": "monitoring-kontrak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-kontraks/:id",
+      "handler": "monitoring-kontrak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

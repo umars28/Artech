@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/harga-per-cara-bayars",
+      "handler": "harga-per-cara-bayar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/harga-per-cara-bayars/count",
+      "handler": "harga-per-cara-bayar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/harga-per-cara-bayars/:id",
+      "handler": "harga-per-cara-bayar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/harga-per-cara-bayars",
+      "handler": "harga-per-cara-bayar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/harga-per-cara-bayars/:id",
+      "handler": "harga-per-cara-bayar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/harga-per-cara-bayars/:id",
+      "handler": "harga-per-cara-bayar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

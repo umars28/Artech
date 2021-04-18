@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "harga_per_cara_bayars",
+  "info": {
+    "name": "harga_per_cara_bayar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

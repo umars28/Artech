@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengembalian_kas_bons",
+  "info": {
+    "name": "pengembalian_kas_bon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

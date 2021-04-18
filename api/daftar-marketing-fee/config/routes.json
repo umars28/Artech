@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daftar-marketing-fees",
+      "handler": "daftar-marketing-fee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-marketing-fees/count",
+      "handler": "daftar-marketing-fee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-marketing-fees/:id",
+      "handler": "daftar-marketing-fee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daftar-marketing-fees",
+      "handler": "daftar-marketing-fee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daftar-marketing-fees/:id",
+      "handler": "daftar-marketing-fee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daftar-marketing-fees/:id",
+      "handler": "daftar-marketing-fee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

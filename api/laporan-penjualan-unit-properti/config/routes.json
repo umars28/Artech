@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laporan-penjualan-unit-propertis",
+      "handler": "laporan-penjualan-unit-properti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-penjualan-unit-propertis/count",
+      "handler": "laporan-penjualan-unit-properti.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/laporan-penjualan-unit-propertis/:id",
+      "handler": "laporan-penjualan-unit-properti.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/laporan-penjualan-unit-propertis",
+      "handler": "laporan-penjualan-unit-properti.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laporan-penjualan-unit-propertis/:id",
+      "handler": "laporan-penjualan-unit-properti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laporan-penjualan-unit-propertis/:id",
+      "handler": "laporan-penjualan-unit-properti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

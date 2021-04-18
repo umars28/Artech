@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "riwayat_unit_propertis",
+  "info": {
+    "name": "riwayat_unit_properti"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

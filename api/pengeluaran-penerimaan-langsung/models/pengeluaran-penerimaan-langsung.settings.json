@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengeluaran_penerimaan_langsungs",
+  "info": {
+    "name": "pengeluaran_penerimaan_langsung"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

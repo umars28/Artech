@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rekap_mutasi_umur_piutang_kartu_piutangs",
+  "info": {
+    "name": "rekap_mutasi_umur_piutang_kartu_piutang"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

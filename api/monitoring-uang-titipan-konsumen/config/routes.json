@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monitoring-uang-titipan-konsumen",
+      "handler": "monitoring-uang-titipan-konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-uang-titipan-konsumen/count",
+      "handler": "monitoring-uang-titipan-konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monitoring-uang-titipan-konsumen/:id",
+      "handler": "monitoring-uang-titipan-konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monitoring-uang-titipan-konsumen",
+      "handler": "monitoring-uang-titipan-konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monitoring-uang-titipan-konsumen/:id",
+      "handler": "monitoring-uang-titipan-konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monitoring-uang-titipan-konsumen/:id",
+      "handler": "monitoring-uang-titipan-konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

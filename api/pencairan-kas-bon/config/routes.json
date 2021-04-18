@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pencairan-kas-bons",
+      "handler": "pencairan-kas-bon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencairan-kas-bons/count",
+      "handler": "pencairan-kas-bon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pencairan-kas-bons/:id",
+      "handler": "pencairan-kas-bon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pencairan-kas-bons",
+      "handler": "pencairan-kas-bon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pencairan-kas-bons/:id",
+      "handler": "pencairan-kas-bon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pencairan-kas-bons/:id",
+      "handler": "pencairan-kas-bon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

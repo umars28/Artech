@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "status_approvals",
+  "info": {
+    "name": "status_approval"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

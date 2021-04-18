@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/po-kontraktors",
+      "handler": "po-kontraktor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/po-kontraktors/count",
+      "handler": "po-kontraktor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/po-kontraktors/:id",
+      "handler": "po-kontraktor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/po-kontraktors",
+      "handler": "po-kontraktor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/po-kontraktors/:id",
+      "handler": "po-kontraktor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/po-kontraktors/:id",
+      "handler": "po-kontraktor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

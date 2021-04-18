@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran-marketing-fees",
+      "handler": "pembayaran-marketing-fee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-marketing-fees/count",
+      "handler": "pembayaran-marketing-fee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran-marketing-fees/:id",
+      "handler": "pembayaran-marketing-fee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran-marketing-fees",
+      "handler": "pembayaran-marketing-fee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran-marketing-fees/:id",
+      "handler": "pembayaran-marketing-fee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran-marketing-fees/:id",
+      "handler": "pembayaran-marketing-fee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

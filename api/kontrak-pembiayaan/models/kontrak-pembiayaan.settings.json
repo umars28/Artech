@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kontrak_pembiayaans",
+  "info": {
+    "name": "kontrak_pembiayaan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

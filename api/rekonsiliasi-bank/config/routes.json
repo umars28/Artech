@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekonsiliasi-banks",
+      "handler": "rekonsiliasi-bank.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekonsiliasi-banks/count",
+      "handler": "rekonsiliasi-bank.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekonsiliasi-banks/:id",
+      "handler": "rekonsiliasi-bank.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekonsiliasi-banks",
+      "handler": "rekonsiliasi-bank.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekonsiliasi-banks/:id",
+      "handler": "rekonsiliasi-bank.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekonsiliasi-banks/:id",
+      "handler": "rekonsiliasi-bank.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daftar-jurnals",
+      "handler": "daftar-jurnal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-jurnals/count",
+      "handler": "daftar-jurnal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-jurnals/:id",
+      "handler": "daftar-jurnal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daftar-jurnals",
+      "handler": "daftar-jurnal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daftar-jurnals/:id",
+      "handler": "daftar-jurnal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daftar-jurnals/:id",
+      "handler": "daftar-jurnal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

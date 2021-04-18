@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "akuisisi_lahans",
+  "info": {
+    "name": "akuisisi_lahan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}

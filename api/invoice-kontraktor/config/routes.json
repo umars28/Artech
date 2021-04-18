@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/invoice-kontraktors",
+      "handler": "invoice-kontraktor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/invoice-kontraktors/count",
+      "handler": "invoice-kontraktor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/invoice-kontraktors/:id",
+      "handler": "invoice-kontraktor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/invoice-kontraktors",
+      "handler": "invoice-kontraktor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/invoice-kontraktors/:id",
+      "handler": "invoice-kontraktor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/invoice-kontraktors/:id",
+      "handler": "invoice-kontraktor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

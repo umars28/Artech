@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penerimaan_uang_muka_angsurans",
+  "info": {
+    "name": "penerimaan_uang_muka_angsuran"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}
