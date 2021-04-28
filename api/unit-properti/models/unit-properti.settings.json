@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unit_propertis",
+  "info": {
+    "name": "unit_properti",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama_properti": {
+      "type": "string"
+    },
+    "jenis_properti": {
+      "type": "enumeration",
+      "enum": [
+        "dsdsd",
+        "dsadsd"
+      ]
+    },
+    "status_persediaan": {
+      "type": "boolean"
+    },
+    "jumlah": {
+      "type": "integer"
+    },
+    "harga_per_unit": {
+      "type": "biginteger"
+    },
+    "metode_bayar": {
+      "collection": "metode-bayar"
+    }
+  }
+}

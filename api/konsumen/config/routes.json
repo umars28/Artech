@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/konsumen",
+      "handler": "konsumen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/konsumen/count",
+      "handler": "konsumen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/konsumen/:id",
+      "handler": "konsumen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/konsumen",
+      "handler": "konsumen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/konsumen/:id",
+      "handler": "konsumen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/konsumen/:id",
+      "handler": "konsumen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

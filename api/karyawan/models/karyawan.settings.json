@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "karyawans",
   "info": {
-    "name": "karyawan"
+    "name": "karyawan",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,35 @@
   "attributes": {
     "nama": {
       "type": "string"
+    },
+    "gaji": {
+      "type": "biginteger"
+    },
+    "posisi": {
+      "type": "enumeration",
+      "enum": [
+        "developer1",
+        "developer2",
+        "karyawan"
+      ]
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "nomor_telepon": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "alamat": {
+      "type": "richtext"
+    },
+    "kode_id": {
+      "model": "account-code"
     }
   }
 }

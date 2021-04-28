@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dokumen_units",
+  "info": {
+    "name": "dokumen_unit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama_dokumen": {
+      "type": "string"
+    },
+    "jenis_dokumen": {
+      "type": "enumeration",
+      "enum": [
+        "dsads",
+        "dfasds",
+        "dsdsd"
+      ]
+    }
+  }
+}

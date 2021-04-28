@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/metode-bayars",
+      "handler": "metode-bayar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/metode-bayars/count",
+      "handler": "metode-bayar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/metode-bayars/:id",
+      "handler": "metode-bayar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/metode-bayars",
+      "handler": "metode-bayar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/metode-bayars/:id",
+      "handler": "metode-bayar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/metode-bayars/:id",
+      "handler": "metode-bayar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "proyeks",
   "info": {
-    "name": "proyek"
+    "name": "proyek",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,8 +11,24 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "nama": {
+    "nama_proyek": {
       "type": "string"
+    },
+    "tanggal_mulai": {
+      "type": "datetime"
+    },
+    "tanggal_berakhir": {
+      "type": "datetime"
+    },
+    "jenis_proyek": {
+      "type": "enumeration",
+      "enum": [
+        "proyek1",
+        "proyek2",
+        "proyek3",
+        "jsdnjksadn",
+        "jdsakdsd"
+      ]
     }
   }
 }

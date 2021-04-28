@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metode_bayars",
+  "info": {
+    "name": "metode_bayar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "jenis_pembayaran": {
+      "type": "enumeration",
+      "enum": [
+        "dasdsd",
+        "dsads",
+        "dsadsa"
+      ]
+    },
+    "cara_bayar_text": {
+      "type": "string"
+    },
+    "cara_bayar_pdf": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "nama_permbayaran": {
+      "type": "string"
+    }
+  }
+}

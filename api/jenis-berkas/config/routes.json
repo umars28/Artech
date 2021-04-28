@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jenis-berkas",
+      "handler": "jenis-berkas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jenis-berkas/count",
+      "handler": "jenis-berkas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jenis-berkas/:id",
+      "handler": "jenis-berkas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jenis-berkas",
+      "handler": "jenis-berkas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jenis-berkas/:id",
+      "handler": "jenis-berkas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jenis-berkas/:id",
+      "handler": "jenis-berkas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "suppliers",
   "info": {
-    "name": "supplier"
+    "name": "supplier",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,30 @@
   "attributes": {
     "nama": {
       "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "username": {
+      "type": "string"
+    },
+    "nomor_telepon": {
+      "type": "biginteger"
+    },
+    "posisi": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "alamat": {
+      "type": "richtext"
+    },
+    "password": {
+      "type": "password"
+    },
+    "kode_nama": {
+      "model": "account-code"
     }
   }
 }

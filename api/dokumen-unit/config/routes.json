@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dokumen-units",
+      "handler": "dokumen-unit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dokumen-units/count",
+      "handler": "dokumen-unit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dokumen-units/:id",
+      "handler": "dokumen-unit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dokumen-units",
+      "handler": "dokumen-unit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dokumen-units/:id",
+      "handler": "dokumen-unit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dokumen-units/:id",
+      "handler": "dokumen-unit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

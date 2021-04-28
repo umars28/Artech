@@ -14,8 +14,8 @@
     "code": {
       "type": "string"
     },
-    "status": {
-      "type": "boolean"
+    "nama": {
+      "type": "string"
     }
   }
 }

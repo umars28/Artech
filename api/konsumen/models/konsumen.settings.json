@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "konsumen",
+  "info": {
+    "name": "konsumen",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "username": {
+      "type": "string"
+    },
+    "nomor_telepon": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "alamat": {
+      "type": "richtext"
+    },
+    "kode_id": {
+      "model": "account-code"
+    },
+    "password": {
+      "type": "password"
+    },
+    "jenis_berkas": {
+      "model": "jenis-berkas"
+    }
+  }
+}
