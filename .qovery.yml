@@ -1,0 +1,15 @@
+---
+application:
+  name: "artech"
+  project: "Arctech"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "eces"
+  version: "5.7"
+routers:
+- name: "main-artech"
+  routes:
+  - application_name: "artech"
+    paths:
+    - "/*"
